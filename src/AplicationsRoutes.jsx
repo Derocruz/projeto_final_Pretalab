@@ -13,7 +13,7 @@ function AplicationsRoutes() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/comments" element={<Comments />} />
+        <Route path="/Comments" element={<Comments />} />
         <Route path="/Contact" element={<Contact />} />
         </Routes> 
          
