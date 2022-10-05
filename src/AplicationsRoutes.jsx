@@ -1,6 +1,6 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/home/Home'
-import About from './pages/About/About'
+import About from './pages/about/about'
 import Comments from './pages/Comments/Comments'
 import Contact from './pages/Contacts/Contact'
 import Footer from './components/Footer/Footer'
@@ -12,7 +12,7 @@ function AplicationsRoutes() {
         <Menu />
         <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/About" element={<About />} />
         <Route path="/comments" element={<Comments />} />
         <Route path="/Contact" element={<Contact />} />
         </Routes> 
