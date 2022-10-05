@@ -5,7 +5,7 @@ Utilizado ferramentas como Firebase e feito com Vite.
 Possui usestate e useEffect.
 
 Dificuldades: 
-Ajustes no CSS
+Ajustes no CSS ( ainda falta alguns ajustes)
 Entrega no tempo previsto devido carga de trabalho
 Dificuldade de criar as funções useState e useEffect.
 
