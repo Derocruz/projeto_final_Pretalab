@@ -1,0 +1,43 @@
+.header {
+    text-align: center;
+    color: #fff;
+    background: #686AAC;  
+  }
+  
+  .header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+  
+  .header img {
+    margin: 2rem;
+    width: 20%;
+    height: 20%;
+  }
+  
+  .subtitulo {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    height: 400px;
+    color: #686AAC;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDE9E0;
+  }
+  
+  .qualificacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #686AAC;
+    background: #EDE9E0;
+
+}
+
+  
+ 

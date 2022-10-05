@@ -1,0 +1,40 @@
+header-menu {
+
+  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  
+}
+.lista-menu {
+
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  color: #686AAC;
+}
+nav {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+ color: #686AAC;
+
+}
