@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase ,push,ref, set } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCsjNECeOSRnluAnnZtj_SFXQZrDVN5NGw",
-    authDomain: "pretalab-final-ac8a5.firebaseapp.com",
-    projectId: "pretalab-final-ac8a5",
-    storageBucket: "pretalab-final-ac8a5.appspot.com",
-    messagingSenderId: "45581458114",
-    appId: "1:45581458114:web:2916b81947342cdaf5f95b",
-    databaseURL:"https://pretalab-final-ac8a5-default-rtdb.firebaseio.com/"
+    apiKey: import.meta.env.VITE_API_KEY,
+    authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_APP_ID,
+    databaseURL:import.meta.env.VITE_DATABASE_URL
   };
   
   const app = initializeApp(firebaseConfig);
